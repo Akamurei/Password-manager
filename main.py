@@ -89,12 +89,6 @@ def find_password():
         messagebox.showinfo(title="Error", message=f"No details found for {website} exists.")
 
 # ---------------------------- UI SETUP ------------------------------- #
-# sticky="e" or "w" or "we" or "nsew"
-
-# e = Aligned right
-# w = Aligned left
-# we = Stretches horizontally
-# nsew = Fills the entire grid cell
 
 window = Tk()
 window.title("Password Manager")
@@ -138,5 +132,3 @@ search_button = Button(text="Search", width=16, command=find_password)
 search_button.grid(row=1, column=2, padx=5, pady=5)
 
 window.mainloop()
-
-
