@@ -116,7 +116,7 @@ website_input.focus()
 
 email_username_input = Entry(width=43)
 email_username_input.grid(row=2, column=1, columnspan=2, padx=5, pady=5, sticky="w")
-email_username_input.insert(0, "aka@gmail.com")
+email_username_input.insert(0, "exemle@gmail.com")
 
 password_input = Entry(width=21)
 password_input.grid(row=3, column=1, padx=5, pady=5, sticky="w")
